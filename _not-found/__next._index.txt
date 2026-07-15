@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[4992,["7177","static/chunks/app/layout-c93ba1b761f52a8c.js"],"default"]
+3:I[7121,[],""]
+4:I[4581,[],""]
+:HL["/_next/static/css/46c55a0bc01cb29d.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/46c55a0bc01cb29d.css","precedence":"next"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-[var(--bg)] text-[var(--text)]","children":[["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}],["$","footer",null,{"className":"mt-auto py-4 text-center text-sm text-[var(--text-muted)]","children":"阿暖哥出品"}]]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"KTQRKmz6hk2b0XnfPOtKZ"}
