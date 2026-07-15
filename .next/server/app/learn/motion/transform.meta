@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/motion/layout,_N_T_/learn/motion/transform/layout,_N_T_/learn/motion/transform/page,_N_T_/learn/motion/transform"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/motion/transform/__PAGE__",
+    "/learn/motion/transform",
+    "/learn/motion",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

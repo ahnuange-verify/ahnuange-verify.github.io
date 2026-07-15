@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/decimal/layout,_N_T_/learn/decimal/apply/layout,_N_T_/learn/decimal/apply/page,_N_T_/learn/decimal/apply"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/decimal/apply/__PAGE__",
+    "/learn/decimal/apply",
+    "/learn/decimal",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

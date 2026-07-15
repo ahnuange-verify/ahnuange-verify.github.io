@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/perimeter/layout,_N_T_/learn/perimeter/count/layout,_N_T_/learn/perimeter/count/page,_N_T_/learn/perimeter/count"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/perimeter/count/__PAGE__",
+    "/learn/perimeter/count",
+    "/learn/perimeter",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/calendar/layout,_N_T_/learn/calendar/touch/layout,_N_T_/learn/calendar/touch/page,_N_T_/learn/calendar/touch"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/calendar/touch/__PAGE__",
+    "/learn/calendar/touch",
+    "/learn/calendar",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

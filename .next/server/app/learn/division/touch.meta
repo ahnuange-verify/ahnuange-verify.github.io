@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/division/layout,_N_T_/learn/division/touch/layout,_N_T_/learn/division/touch/page,_N_T_/learn/division/touch"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/division/touch/__PAGE__",
+    "/learn/division/touch",
+    "/learn/division",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

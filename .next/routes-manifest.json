@@ -1,0 +1,419 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "priority": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/.//_next/:path+",
+        "destination": "/_next/:path+",
+        "regex": "^/\\.//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/learn/area",
+      "regex": "^/learn/area(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area(?:/)?$"
+    },
+    {
+      "page": "/learn/area/apply",
+      "regex": "^/learn/area/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/area/compare",
+      "regex": "^/learn/area/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/area/count",
+      "regex": "^/learn/area/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/count(?:/)?$"
+    },
+    {
+      "page": "/learn/area/discover",
+      "regex": "^/learn/area/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/area/draw",
+      "regex": "^/learn/area/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/area/touch",
+      "regex": "^/learn/area/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/area/transform",
+      "regex": "^/learn/area/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/area/transform(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar",
+      "regex": "^/learn/calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/apply",
+      "regex": "^/learn/calendar/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/compare",
+      "regex": "^/learn/calendar/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/count",
+      "regex": "^/learn/calendar/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/count(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/discover",
+      "regex": "^/learn/calendar/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/draw",
+      "regex": "^/learn/calendar/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/touch",
+      "regex": "^/learn/calendar/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/calendar/transform",
+      "regex": "^/learn/calendar/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/calendar/transform(?:/)?$"
+    },
+    {
+      "page": "/learn/data",
+      "regex": "^/learn/data(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data(?:/)?$"
+    },
+    {
+      "page": "/learn/data/apply",
+      "regex": "^/learn/data/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/data/compare",
+      "regex": "^/learn/data/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/data/count",
+      "regex": "^/learn/data/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/count(?:/)?$"
+    },
+    {
+      "page": "/learn/data/discover",
+      "regex": "^/learn/data/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/data/draw",
+      "regex": "^/learn/data/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/data/touch",
+      "regex": "^/learn/data/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/data/transform",
+      "regex": "^/learn/data/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/data/transform(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal",
+      "regex": "^/learn/decimal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/apply",
+      "regex": "^/learn/decimal/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/compare",
+      "regex": "^/learn/decimal/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/count",
+      "regex": "^/learn/decimal/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/count(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/discover",
+      "regex": "^/learn/decimal/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/draw",
+      "regex": "^/learn/decimal/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/touch",
+      "regex": "^/learn/decimal/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/decimal/transform",
+      "regex": "^/learn/decimal/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/decimal/transform(?:/)?$"
+    },
+    {
+      "page": "/learn/division",
+      "regex": "^/learn/division(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division(?:/)?$"
+    },
+    {
+      "page": "/learn/division/apply",
+      "regex": "^/learn/division/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/division/compare",
+      "regex": "^/learn/division/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/division/count",
+      "regex": "^/learn/division/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/count(?:/)?$"
+    },
+    {
+      "page": "/learn/division/discover",
+      "regex": "^/learn/division/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/division/draw",
+      "regex": "^/learn/division/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/division/touch",
+      "regex": "^/learn/division/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/division/transform",
+      "regex": "^/learn/division/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/division/transform(?:/)?$"
+    },
+    {
+      "page": "/learn/motion",
+      "regex": "^/learn/motion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/apply",
+      "regex": "^/learn/motion/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/compare",
+      "regex": "^/learn/motion/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/count",
+      "regex": "^/learn/motion/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/count(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/discover",
+      "regex": "^/learn/motion/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/draw",
+      "regex": "^/learn/motion/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/touch",
+      "regex": "^/learn/motion/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/motion/transform",
+      "regex": "^/learn/motion/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/motion/transform(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter",
+      "regex": "^/learn/perimeter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/apply",
+      "regex": "^/learn/perimeter/apply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/apply(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/compare",
+      "regex": "^/learn/perimeter/compare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/compare(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/count",
+      "regex": "^/learn/perimeter/count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/count(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/discover",
+      "regex": "^/learn/perimeter/discover(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/discover(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/draw",
+      "regex": "^/learn/perimeter/draw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/draw(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/touch",
+      "regex": "^/learn/perimeter/touch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/touch(?:/)?$"
+    },
+    {
+      "page": "/learn/perimeter/transform",
+      "regex": "^/learn/perimeter/transform(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learn/perimeter/transform(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

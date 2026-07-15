@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/area/layout,_N_T_/learn/area/count/layout,_N_T_/learn/area/count/page,_N_T_/learn/area/count"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/area/count/__PAGE__",
+    "/learn/area/count",
+    "/learn/area",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

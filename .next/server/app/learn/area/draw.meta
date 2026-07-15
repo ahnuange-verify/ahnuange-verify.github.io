@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/area/layout,_N_T_/learn/area/draw/layout,_N_T_/learn/area/draw/page,_N_T_/learn/area/draw"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/area/draw/__PAGE__",
+    "/learn/area/draw",
+    "/learn/area",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}

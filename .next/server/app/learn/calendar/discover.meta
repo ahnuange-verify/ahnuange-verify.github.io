@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/learn/layout,_N_T_/learn/calendar/layout,_N_T_/learn/calendar/discover/layout,_N_T_/learn/calendar/discover/page,_N_T_/learn/calendar/discover"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/learn/calendar/discover/__PAGE__",
+    "/learn/calendar/discover",
+    "/learn/calendar",
+    "/learn",
+    "/_index",
+    "/_head"
+  ]
+}
